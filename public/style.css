@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/************************  DESKTOP VERSION ***********************/
+/*******  HOME ********/
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 15%;
+}
+
+.navLink {
+    padding-bottom: 10em;
+    padding-top: 60%;
+    margin: auto;
+    color: whitesmoke;
+}
+
+.navLink:hover {
+    color: #8959A8;
+}
+
+.network {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 15%;
+    color: #222222;
+}
+
+.mainTitle {
+    margin-left: 18%
+}
+
+.title {
+    text-align: center;
+}
+
+/*******  ARTICLES  ********/
+
+.articleCard {
+    width: 30%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.articlePoster {
+    width: 500px;
+}
+
+
+/*******  DETAILS ARTICLES  ********/
+
+.articleTitle {
+    text-align: center;
+}
+
+article,
+.articleImg {
+    text-align: center
+}
+
+.articleContent {
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+    padding-top: 2em;
+}
+

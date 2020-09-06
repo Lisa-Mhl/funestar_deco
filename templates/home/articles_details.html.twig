@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <article>
+        <h2 class="articleTitle"> {{ article.title | upper }}<br> {{ article.createdAt | date }} </h2>
+        <img class="articleImg" src="{{ article.poster }}" alt="article poster">
+        <p class="articleContent">{{ article.content }}</p>
+    </article>
+
+    <div class="center">
+        <a class="backlink" href="{{ path('home') }}">Retour à l'accueil</a>
+    </div>
+
+{% endblock %}

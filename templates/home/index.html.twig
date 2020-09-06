@@ -1,8 +1,19 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Bienvenue ! {% endblock %}
-
 {% block body %}
 
-    <h1>Hello Funestar ! </h1>
+    <section class="network">
+        <a href="#" target="_blank">LOGO INSTA</a>
+        <a href="#" target="_blank">LOGO FB</a>
+        <a href="#" target="_blank">LOGO TWITTER</a>
+        <a href="#" target="_blank">LOGO PINTEREST</a>
+    </section>
+
+    <nav>
+        <a class="navLink" href="{{ path('articles') }}">DECORATION</a>
+        <a class="navLink" href="#">ARCHITECTURE</a>
+        <a class="navLink" href="#">NOUVEAUTES DESIGN</a>
+    </nav>
+
+    <h1 class="mainTitle">Les News du Mois </h1>
 {% endblock %}
